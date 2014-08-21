@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		92B0A7EE19A5D5E700FBC456 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B0A7ED19A5D5E700FBC456 /* main.swift */; };
+		92B0A7F519A5D5FF00FBC456 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B0A7F419A5D5FF00FBC456 /* array.swift */; };
+		92B0A7F819A5D73200FBC456 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 92B0A7F719A5D73200FBC456 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		92B0A7EA19A5D5E700FBC456 /* array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = array; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B0A7ED19A5D5E700FBC456 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		92B0A7F419A5D5FF00FBC456 /* array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
+		92B0A7F619A5D73200FBC456 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		92B0A7F719A5D73200FBC456 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,8 @@
 		92B0A7E119A5D5E700FBC456 = {
 			isa = PBXGroup;
 			children = (
+				92B0A7F619A5D73200FBC456 /* LICENSE */,
+				92B0A7F719A5D73200FBC456 /* README.md */,
 				92B0A7EC19A5D5E700FBC456 /* array */,
 				92B0A7EB19A5D5E700FBC456 /* Products */,
 			);
@@ -58,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				92B0A7ED19A5D5E700FBC456 /* main.swift */,
+				92B0A7F419A5D5FF00FBC456 /* array.swift */,
 			);
 			path = array;
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B0A7F819A5D73200FBC456 /* README.md in Sources */,
 				92B0A7EE19A5D5E700FBC456 /* main.swift in Sources */,
+				92B0A7F519A5D5FF00FBC456 /* array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
