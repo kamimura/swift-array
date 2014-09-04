@@ -16,4 +16,5 @@ println(a.slice(start: 1, end: 4))       // [b, c, d]
 println(a.slice(end: 4))                 // [a, b, c, d]
 println(a.slice(start: -4, end: -1))     // [b, c, d]
 println(a.slice(start: 2, end: 1))       // []
+a.forEach({(x:String) in println(x)})    // output: a b c d e
 ````

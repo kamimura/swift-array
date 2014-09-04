@@ -35,4 +35,9 @@ extension Array {
         }
         return result
     }
+    func forEach(f:(T) -> ()) {
+        for e in self {
+            f(e)
+        }
+    }
 }
