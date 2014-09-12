@@ -45,3 +45,24 @@ extension Array {
 func sum(nums:[Int]) -> Int {
     return nums.reduce(0, combine: {(x, y) in x + y})
 }
+
+func range(start:Int = 0, end:Int, step:Int = 1) -> [Int] {
+    assert(step != 0, "arg 3 must not be zero")
+
+    var result:[Int] = []
+    var elem = start
+    
+    if step > 0 {
+        while elem < end {
+            result.append(elem)
+            elem += step
+        }
+    } else {
+        while elem > end {
+            result.append(elem)
+            elem += step
+        }
+    }
+    
+    return result
+}
